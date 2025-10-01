@@ -1,0 +1,29 @@
+<h1>Documentação das Rotas da API</h1>
+
+<section>
+  <h2>Rotas de Usuários</h2>
+  <ul>
+    <li><strong>GET /</strong> - Lista todos os usuários.</li>
+    <li><strong>GET /users/create</strong> - Formulário para cadastro de novo usuário.</li>
+    <li><strong>POST /users/create</strong> - Cria um novo usuário.</li>
+    <li><strong>GET /users/:id</strong> - Exibe detalhes de um usuário específico.</li>
+    <li><strong>GET /users/edit/:id</strong> - Formulário para editar um usuário.</li>
+    <li><strong>POST /users/update</strong> - Atualiza os dados de um usuário.</li>
+    <li><strong>POST /users/delete/:id</strong> - Exclui um usuário e seus endereços.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Rotas de Endereços</h2>
+  <ul>
+    <li><strong>POST /address/create</strong> - Cria um novo endereço para um usuário.</li>
+    <li><strong>POST /address/delete</strong> - Exclui um endereço.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Outras Rotas</h2>
+  <ul>
+    <li><strong>GET /docs</strong> - Exibe esta documentação da API.</li>
+  </ul>
+</section>
